@@ -1827,7 +1827,7 @@ class Qwen3TTSForConditionalGeneration(Qwen3TTSPreTrainedModel, GenerationMixin)
         self.speech_tokenizer = None
         self.generate_config = None
 
-        self.supported_speakers = self.config.talker_config.spk_id.keys()
+        self.supported_speakers = list(self.config.talker_config.spk_id.keys())
         self.supported_languages = ["auto"]
         for language_id in self.config.talker_config.codec_language_id.keys():
             if "dialect" not in language_id:
