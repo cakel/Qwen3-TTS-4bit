@@ -24,7 +24,7 @@ from ..core.models.modeling_qwen3_tts import Qwen3TTSTalkerRotaryEmbedding, Qwen
 from .qwen3_tts_model import Qwen3TTSModel
 from .qwen3_tts_tokenizer import Qwen3TTSTokenizer
 
-REPO_4BIT_DEFAULT = "smdesai/Qwen3-TTS-12Hz-0.6B-CustomVoice-4bit"
+REPO_4BIT_DEFAULT = "Wookidooki/Qwen3-TTS-12Hz-0.6B-CustomVoice-4bit"
 REPO_ORIG_DEFAULT = "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice"
 GROUP_SIZE_DEFAULT = 64
 

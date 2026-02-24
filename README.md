@@ -8,7 +8,7 @@
 
 ## 특징
 
-- 다운로드: ~486MB ([smdesai/Qwen3-TTS-12Hz-0.6B-CustomVoice-4bit](https://huggingface.co/smdesai/Qwen3-TTS-12Hz-0.6B-CustomVoice-4bit))
+- 다운로드: ~486MB ([Wookidooki/Qwen3-TTS-12Hz-0.6B-CustomVoice-4bit](https://huggingface.co/Wookidooki/Qwen3-TTS-12Hz-0.6B-CustomVoice-4bit))
 - bitsandbytes 불필요
 - Ampere 이전 GPU (GTX 1080 등) 자동 감지 → fp32 전환
 - 첫 실행 시 dequantize 후 디스크 캐시 → 이후 빠른 로딩
